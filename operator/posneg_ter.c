@@ -7,7 +7,8 @@ int main(){
 	printf("please enter value of a:");
 	scanf("%d",&a);
 	
-	a >= 18 ? printf("you are elizible of voting",a) : printf("you are Not elizible of voting",a);
-
+	a>=0 ? printf("%d is positive no",a) :	printf("%d is negetive no",a);
+	
 	return 0;
 }
+

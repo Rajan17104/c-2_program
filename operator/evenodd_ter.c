@@ -4,10 +4,11 @@ int main(){
 
 	int n;
 	
-	printf("please enter ant number :");
+	printf("please enter any number:");
 	scanf("%d",&n);
 	
-	n % 2 == 0 ? printf("%d is even number", n) : printf("%d is odd number" ,n);
-
+	n % 2 ==0 ?  printf("%d is even no",n) : printf("%d is odd no",n);
+	
+	
 	return 0;
 }

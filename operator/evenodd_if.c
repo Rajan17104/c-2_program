@@ -2,17 +2,18 @@
 
 int main(){
 
-	int x;
+	int n;
 	
-	printf("enter value of x:");
-	scanf("%d",&x);
-
-	if (x % 2 == 0) {
-		printf("%d is even number", x);
+	printf("please enter any number:");
+	scanf("%d",&n);
+	
+	if(n % 2 ==0){
+		 printf("%d is even no",n);
 	}else{
-		printf("%d is odd number", x);
-	
+		printf("%d is odd no",n);
 	}
+
+	
 	
 	return 0;
 }
