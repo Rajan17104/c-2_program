@@ -1,0 +1,13 @@
+#include<stdio.h>
+
+int main(){
+
+	int a;
+	
+	printf("please enter value of a:");
+	scanf("%d",&a);
+	
+	a >= 18 ? printf("you are elizible of voting",a) : printf("you are Not elizible of voting",a);
+
+	return 0;
+}
