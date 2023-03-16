@@ -1,8 +1,8 @@
 #include<stdio.h>
 
 int main(){
-	int fees,cast,scholarship,cgpa,answer;
-	
+	int fees,cast,scholarship,answer;
+	float cgpa;
 	
 	printf("Enter your fess :");
 	scanf("%d",&fees);
@@ -28,7 +28,7 @@ int main(){
 		printf("none");
 	}
 	printf("Enter your cgpa :");
-	scanf("%d\n",&cgpa);
+	scanf("%f\n",&cgpa);
 	if(cgpa>=9){
 		printf("Your grade is : A");		
 		printf("You are eligible for scholarship");
