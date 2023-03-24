@@ -9,7 +9,7 @@ int main(){
 		scanf("%d %d %d %d",&a,&b,&c,&d);
 		
 		if(c == d){
-			printf("ratio is not possible");
+			printf("ratio is not possible\n");
 		}else{
 			ans = (a-b)/(c-d);	
 			printf("ratio is %d\n",ans);

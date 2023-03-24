@@ -11,9 +11,6 @@ int mani(){
 	printf("%d",i);
 	
 	}while(i<=10);
-	
-	
-
 
 	return 0;
 }

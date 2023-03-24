@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-int mani(){
+int main(){
 
 	int conter,n;
 	

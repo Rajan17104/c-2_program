@@ -14,7 +14,7 @@ int main(){
 		scanf("%d",&num);
 		
 		if(num % 7 == 0 || num % 3 == 0){
-			printf("your number is %d",num);
+			printf("your number is %d\n",num);
 		}else{
 			printf("your number is not divsible\n");
 		}
@@ -22,9 +22,6 @@ int main(){
 		i++;
 		
 	}while(i<=n);
-	
-	
-
 
 	return 0;
 }

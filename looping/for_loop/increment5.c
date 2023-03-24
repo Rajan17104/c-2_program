@@ -5,7 +5,7 @@ int main(){
 	int i;
 	
 	for(i=25; i>=100; i+5){
-		printf("%d",i);
+		printf("%d\n",i);
 	}
 	return 0;
 }

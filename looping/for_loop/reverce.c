@@ -1,17 +1,13 @@
 #include<stdio.h>
 
 int main(){
-
+	
 	int i;
 	
-	i=1;
-	
-	while(i<=10){
+	for (i=40; i>=31; i--) {
 		printf("%d\n",i);
-	
-	i++;
-	
 	}
+	
 	
 	return 0;
 }

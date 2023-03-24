@@ -8,6 +8,7 @@ int main(){
 	scanf("%d",&n);
 	
 	while(n > 0){
+		
 		rem = n % 10;
 		res = res + (rem * rem * rem);
 		n = n / 10;
