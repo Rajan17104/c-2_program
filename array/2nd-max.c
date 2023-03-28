@@ -2,7 +2,7 @@
 
 int main(){
 
-	int arr[100],n,i,m1=0;
+	int arr[100],n,i,m1=0,m2=0;
 	
 	printf("please enter a size of array:");
 	scanf("%d",&n);
@@ -14,11 +14,14 @@ int main(){
 	
 	for(i=0; i<n; i++){
 		if(arr[i] > m1){
+			m2 = m1;
 			m1 = arr[i];
+		}else if(arr[i] > m2 && arr[i] < m1){
+			m2 = arr[i];
 		}
 	}
 	
-	printf("max no is : %d\n",m1);
+	printf("2nd max no is : %d",m2);
 
 	return 0;
 }
