@@ -22,9 +22,6 @@ int sub(int m, int n){
 
 }
 
-
-
-
 int main(){
 
 	int a,b,res;
