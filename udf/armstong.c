@@ -14,12 +14,19 @@ void armstong(){
 		n = n / 10;
 	}
 	
-	printf("result is %d",res);
+	if(res == n){
+		printf("armstong is %d",res);
+	}else {
+		printf("Not armstong");
+	}
+	
+	
 
 }
 
 int main(){
 	
+	armstong();
 	
 	
 	

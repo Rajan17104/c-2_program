@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-void intro(){
+void evenodd(){
 				
 	int n;
 				
@@ -17,6 +17,7 @@ void intro(){
 
 int main(){
 	
-	intro();
+	evenodd();
+	
 	return 0;
 }

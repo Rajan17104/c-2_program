@@ -10,6 +10,7 @@ float Average(float n) {
 		
         sum = sum + no;
         avg = sum / 4;
+        
 	}
 	
 	printf("your avg is:%.2f",avg);
