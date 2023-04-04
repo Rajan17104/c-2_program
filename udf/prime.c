@@ -1,5 +1,4 @@
 #include<stdio.h>
-
 int prime() {
 	int n, i, flag = 0;
 	

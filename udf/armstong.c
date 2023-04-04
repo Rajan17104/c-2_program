@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-void armstong(){
+int armstong(){
 
 	int n,res=0,rem=0;
 	
@@ -20,15 +20,11 @@ void armstong(){
 		printf("Not armstong");
 	}
 	
-	
-
 }
 
 int main(){
 	
 	armstong();
-	
-	
-	
+
 	return 0;
 }

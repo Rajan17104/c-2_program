@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-int main(){
+int neg(){
 	
 	int arr[100],n,i;
 	
@@ -20,6 +20,16 @@ int main(){
 		}
 
 	}
+
+}
+
+int main(){
+	
+	int ans,ans1;
+	
+	ans = neg();
+	
+	ans = neg();
 	
 	return 0;
 }
