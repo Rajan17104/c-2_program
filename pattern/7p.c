@@ -5,7 +5,7 @@ int main(){
 	int i,j;
 	
 	for(i=1; i<=5; i++){
-		for(j=5; j>=i; j--){
+		for(j=i; j<=5; j++){
 			printf("%d",j);
 		}
 		printf("\n");
@@ -14,11 +14,11 @@ int main(){
 	return 0;
 }
 
-/*Output:-
+output:-
 
-54321
-5432
-543
-54
+12345
+2345
+345
+45
 5
 

@@ -5,20 +5,16 @@ int main(){
 	int i,j;
 	
 	for(i=1; i<=5; i++){
-		for(j=5; j>=i; j--){
-			printf("%d",j);
+		for(j=1; j<=i; j++){
+			if(i % 2 == 0){
+				printf("0");	
+			}else{
+				printf("1");
+			}
 		}
 		printf("\n");
 	}
 
 	return 0;
 }
-
-/*Output:-
-
-54321
-5432
-543
-54
-5
 

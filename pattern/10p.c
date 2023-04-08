@@ -4,9 +4,9 @@ int main(){
 
 	int i,j;
 	
-	for(i=1; i<=5; i++){
+	for(i=5 ;i>=1; i--){
 		for(j=5; j>=i; j--){
-			printf("%d",j);
+			printf("%d",i);
 		}
 		printf("\n");
 	}
@@ -14,11 +14,11 @@ int main(){
 	return 0;
 }
 
-/*Output:-
+/*output:-
 
-54321
-5432
-543
-54
 5
+44
+333
+2222
+11111
 
